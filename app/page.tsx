@@ -7,7 +7,7 @@ import Link  from "next/link";
 const Home = () => {
   const Textgradient: string = `font-semibold bg-gradient-to-r from-warna1 to-warna2 bg-clip-text text-transparent`;
   return (
-    <div className="text-gray-700 font-sans">
+    <div className="text-gray-700 font-sans bg-white">
       <header className="fixed w-full z-20">
         <Navbar Textgradient={Textgradient}/>
       </header>
